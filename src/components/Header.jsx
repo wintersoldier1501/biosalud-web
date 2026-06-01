@@ -22,8 +22,9 @@ const Header = () => {
 
         <nav className={`nav-links ${isMobileMenuOpen ? 'active' : ''}`}>
           <Link to="/" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Inicio</Link>
-          <a href="#servicios" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Servicios</a>
-          <a href="#nosotros" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Nosotros</a>
+          <a href="/#servicios" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Servicios</a>
+          <Link to="/sobre-mi" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Sobre Mí</Link>
+          <Link to="/metodologia" className="nav-link" onClick={() => setIsMobileMenuOpen(false)}>Mi Método</Link>
           <div className="nav-action" onClick={() => setIsMobileMenuOpen(false)}>
             <Button to="/agendar" variant="primary">Agendar Cita</Button>
           </div>

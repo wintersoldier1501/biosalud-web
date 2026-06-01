@@ -20,7 +20,7 @@ const Home = () => {
             </p>
             <div className="hero-actions animate-fade-in delay-300">
               <Button to="/agendar" variant="primary">Agendar Consulta</Button>
-              <Button to="#servicios" variant="outline">Conoce Más</Button>
+              <Button to="/metodologia" variant="outline">Mi Método</Button>
             </div>
           </div>
           <div className="hero-image-wrapper animate-fade-in delay-200">
