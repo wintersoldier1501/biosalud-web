@@ -3,11 +3,14 @@ import Button from '../components/Button';
 import './Booking.css';
 import { Calendar as CalendarIcon, Clock, CheckCircle2, ChevronRight, ChevronLeft } from 'lucide-react';
 
+import emailjs from '@emailjs/browser';
+
 const Booking = () => {
   const [step, setStep] = useState(1);
   const [selectedDate, setSelectedDate] = useState(null);
   const [selectedTime, setSelectedTime] = useState(null);
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', reason: '' });
+  const [isSending, setIsSending] = useState(false);
 
   // Generate simple next 7 days for UI purposes
   const dates = Array.from({ length: 7 }).map((_, i) => {
@@ -18,9 +21,40 @@ const Booking = () => {
 
   const timeSlots = ['09:00 AM', '10:30 AM', '12:00 PM', '03:00 PM', '04:30 PM'];
 
-  const handleNext = () => {
-    if (step === 1 && selectedDate && selectedTime) setStep(2);
-    if (step === 2 && formData.name && formData.email) setStep(3);
+  const handleNext = async () => {
+    if (step === 1 && selectedDate !== null && selectedTime) {
+      setStep(2);
+      return;
+    }
+    
+    if (step === 2 && formData.name && formData.email) {
+      setIsSending(true);
+      try {
+        const templateParams = {
+          to_name: 'Dra. Alejandra',
+          from_name: formData.name,
+          from_email: formData.email,
+          phone: formData.phone || 'No especificado',
+          reason: formData.reason || 'Consulta general',
+          date: dates[selectedDate].toLocaleDateString('es-ES', { weekday: 'long', day: 'numeric', month: 'long' }),
+          time: selectedTime,
+        };
+        
+        await emailjs.send(
+          import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_id',
+          import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_id',
+          templateParams,
+          import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'public_key'
+        );
+        
+        setStep(3);
+      } catch (error) {
+        console.error('Error enviando el correo:', error);
+        alert('Hubo un problema de conexión. Por favor, intenta de nuevo o comunícate directamente por teléfono.');
+      } finally {
+        setIsSending(false);
+      }
+    }
   };
 
   return (
@@ -139,10 +173,12 @@ const Booking = () => {
                   ></textarea>
                 </div>
                 <div className="step-actions-between">
-                  <Button variant="outline" onClick={() => setStep(1)}>
+                  <Button variant="outline" onClick={() => setStep(1)} disabled={isSending}>
                     <ChevronLeft size={18} /> Volver
                   </Button>
-                  <Button type="submit">Confirmar Reserva</Button>
+                  <Button type="submit" disabled={isSending}>
+                    {isSending ? 'Enviando...' : 'Confirmar Reserva'}
+                  </Button>
                 </div>
               </form>
             </div>
