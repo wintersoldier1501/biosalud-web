@@ -147,36 +147,59 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Instagram / Social Section */}
+      {/* Social Media Section */}
       <section className="instagram-section section">
         <div className="container text-center">
-          <svg 
-            xmlns="http://www.w3.org/2000/svg" 
-            width="40" 
-            height="40" 
-            viewBox="0 0 24 24" 
-            fill="none" 
-            stroke="currentColor" 
-            strokeWidth="2" 
-            strokeLinecap="round" 
-            strokeLinejoin="round" 
-            className="insta-icon"
-          >
-            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
-            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
-          </svg>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '20px', marginBottom: '1.5rem' }}>
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="40" 
+              height="40" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              className="insta-icon"
+              style={{ margin: 0 }}
+            >
+              <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+            </svg>
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="40" 
+              height="40" 
+              viewBox="0 0 24 24" 
+              fill="none" 
+              stroke="currentColor" 
+              strokeWidth="2" 
+              strokeLinecap="round" 
+              strokeLinejoin="round" 
+              className="insta-icon"
+              style={{ margin: 0 }}
+            >
+              <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+            </svg>
+          </div>
           <h2>Únete a la Comunidad</h2>
-          <p>Sígueme en Instagram <strong>@alemarianutricion</strong> para tips diarios, recetas y motivación.</p>
+          <p>Sígueme en Instagram y Facebook para tips diarios, recetas y motivación.</p>
           <div className="insta-gallery">
             <div className="insta-item"><img src="/insta 1.jpg" alt="Instagram 1" /></div>
             <div className="insta-item"><img src="/insta 2.jpg" alt="Instagram 2" /></div>
             <div className="insta-item"><img src="/insta 3.jpg" alt="Instagram 3" /></div>
             <div className="insta-item"><img src="/insta 4.jpg" alt="Instagram 4" /></div>
           </div>
-          <a href="https://www.instagram.com/alemarianutricion" target="_blank" rel="noreferrer" className="btn btn-outline insta-btn">
-            Ver Perfil en Instagram
-          </a>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', flexWrap: 'wrap' }}>
+            <a href="https://www.instagram.com/alemarianutricion" target="_blank" rel="noreferrer" className="btn btn-outline insta-btn">
+              Ver en Instagram
+            </a>
+            <a href="https://www.facebook.com/share/1BXxePn3QJ/" target="_blank" rel="noreferrer" className="btn btn-outline insta-btn">
+              Ver en Facebook
+            </a>
+          </div>
         </div>
       </section>
 
