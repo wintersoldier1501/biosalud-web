@@ -160,10 +160,10 @@ const Home = () => {
           <h2>Únete a la Comunidad</h2>
           <p>Sígueme en Instagram <strong>@alemarianutricion</strong> para tips diarios, recetas y motivación.</p>
           <div className="insta-gallery">
-            <div className="insta-item"><img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=400" alt="Receta 1" /></div>
-            <div className="insta-item"><img src="https://images.unsplash.com/photo-1498837167922-41c543210361?auto=format&fit=crop&q=80&w=400" alt="Receta 2" /></div>
-            <div className="insta-item"><img src="https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&q=80&w=400" alt="Receta 3" /></div>
-            <div className="insta-item"><img src="https://images.unsplash.com/photo-1466637574441-749b8f19452f?auto=format&fit=crop&q=80&w=400" alt="Receta 4" /></div>
+            <div className="insta-item"><img src="/insta 1.jpg" alt="Instagram 1" /></div>
+            <div className="insta-item"><img src="/insta 2.jpg" alt="Instagram 2" /></div>
+            <div className="insta-item"><img src="/insta 3.jpg" alt="Instagram 3" /></div>
+            <div className="insta-item"><img src="/insta 4.jpg" alt="Instagram 4" /></div>
           </div>
           <a href="https://www.instagram.com/alemarianutricion" target="_blank" rel="noreferrer" className="btn btn-outline insta-btn">
             Ver Perfil en Instagram
