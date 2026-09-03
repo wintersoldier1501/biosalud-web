@@ -141,39 +141,41 @@
   justify-content: center;
   padding: 0.8rem 1.8rem;
   font-family: var(--font-sans);
-  font-weight: 500;
-  font-size: 0.9rem;
+  font-weight: 700;
+  font-size: 0.95rem;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  border: none;
-  border-radius: 4px;
+  border: 2px solid var(--color-border);
+  border-radius: 12px;
   cursor: pointer;
-  transition: all var(--transition-smooth);
+  transition: all 0.15s ease;
   text-decoration: none;
 }
 
 .btn-primary {
   background-color: var(--color-primary);
   color: white;
-  box-shadow: 0 4px 14px 0 rgba(52, 78, 65, 0.2);
+  box-shadow: 4px 4px 0px var(--color-border);
 }
 
 .btn-primary:hover {
-  background-color: var(--color-primary-light);
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(52, 78, 65, 0.25);
+  background-color: var(--color-primary);
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px var(--color-border);
   color: white;
 }
 
 .btn-outline {
-  background-color: transparent;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  background-color: var(--color-accent);
+  color: var(--color-border);
+  box-shadow: 4px 4px 0px var(--color-border);
 }
 
 .btn-outline:hover {
-  background-color: rgba(52, 78, 65, 0.05);
-  color: var(--color-primary);
+  background-color: var(--color-accent);
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px var(--color-border);
+  color: var(--color-border);
 }
 
 /* Footer Styles */
@@ -224,3 +226,17 @@
   color: var(--color-text-muted);
   font-size: 0.85rem;
 }
+
+/* Neo-Brutalism Card Styles */
+.plan-card, .service-card, .testimonial-card, .content-card, .glass-card, .booking-card {
+  border: 3px solid var(--color-border) !important;
+  border-radius: 16px !important;
+  box-shadow: 6px 6px 0px var(--color-border) !important;
+  background-color: var(--color-surface) !important;
+  transition: all 0.2s ease !important;
+}
+.plan-card:hover, .service-card:hover, .testimonial-card:hover {
+  transform: translate(2px, 2px) !important;
+  box-shadow: 4px 4px 0px var(--color-border) !important;
+}
+

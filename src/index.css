@@ -1,17 +1,17 @@
 :root {
-  /* Color Palette: Elegant, Minimalist, Wellness */
-  --color-bg: #FCFCF9;
+  /* Color Palette: Neo-Brutalism / Vibrant Pop */
+  --color-bg: #F9F4E8;
   --color-surface: #FFFFFF;
   --color-text-main: #1A1A1A;
   --color-text-muted: #595959;
-  --color-primary: #344E41; /* deep elegant green */
-  --color-primary-light: #588157;
-  --color-accent: #A3B18A; /* soft sage green */
-  --color-border: #E5E5E5;
+  --color-primary: #F02B6D; /* Hot Pink */
+  --color-primary-light: #FF4A8D;
+  --color-accent: #C4EB1D; /* Lime Green */
+  --color-border: #1A1A1A; /* Solid Black for borders */
   
   /* Typography */
-  --font-serif: 'Playfair Display', serif;
-  --font-sans: 'Inter', sans-serif;
+  --font-serif: 'Montserrat', 'Poppins', sans-serif;
+  --font-sans: 'Montserrat', 'Inter', sans-serif;
   
   /* Spacing */
   --spacing-xs: 0.5rem;
