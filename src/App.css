@@ -240,3 +240,56 @@
   box-shadow: 4px 4px 0px var(--color-border) !important;
 }
 
+
+/* Announcement Bar */
+.announcement-bar {
+  background-color: var(--color-primary);
+  color: white;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-bottom: 2px solid var(--color-border);
+}
+.announcement-bar a {
+  color: white;
+  text-decoration: none;
+}
+.announcement-bar a:hover {
+  text-decoration: underline;
+}
+
+/* Marquee Ticker */
+.marquee-container {
+  width: 100%;
+  background-color: var(--color-accent);
+  border-top: 3px solid var(--color-border);
+  border-bottom: 3px solid var(--color-border);
+  padding: 1rem 0;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.marquee-content {
+  display: inline-block;
+  animation: marquee 15s linear infinite;
+  font-family: var(--font-sans);
+  font-weight: 800;
+  font-size: 1.5rem;
+  color: var(--color-border);
+  text-transform: uppercase;
+  padding-left: 100%;
+}
+.marquee-content span {
+  display: inline-block;
+  padding-right: 50px;
+}
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
