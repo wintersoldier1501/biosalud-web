@@ -13,8 +13,9 @@ function App() {
     <BrowserRouter>
       <div className="app-container">
         <div className="announcement-bar">
-          <a href="https://www.instagram.com/alemarianutricion?igsi=cXZkYnhpczlyZnJh" target="_blank" rel="noopener noreferrer">
-            Sígueme en Instagram para tips y recorridos en el súper diarios 🛒
+          <a href="https://www.instagram.com/alemarianutricion?igsi=cXZkYnhpczlyZnJh" target="_blank" rel="noopener noreferrer" className="announcement-content">
+            <span>SÍGUEME EN INSTAGRAM PARA TIPS Y RECORRIDOS EN EL SÚPER DIARIOS 🛒 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SÍGUEME EN INSTAGRAM PARA TIPS Y RECORRIDOS EN EL SÚPER DIARIOS 🛒 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>SÍGUEME EN INSTAGRAM PARA TIPS Y RECORRIDOS EN EL SÚPER DIARIOS 🛒 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SÍGUEME EN INSTAGRAM PARA TIPS Y RECORRIDOS EN EL SÚPER DIARIOS 🛒 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
           </a>
         </div>
         <Header />
