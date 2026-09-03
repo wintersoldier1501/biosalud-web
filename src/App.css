@@ -268,7 +268,7 @@
   background-color: var(--color-accent);
   border-top: 3px solid var(--color-border);
   border-bottom: 3px solid var(--color-border);
-  padding: 1rem 0;
+  padding: 0.7rem 0;
   overflow: hidden;
   position: relative;
   display: flex;
@@ -280,7 +280,7 @@
   animation: marquee 35s linear infinite;
   font-family: var(--font-sans);
   font-weight: 800;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
   color: var(--color-border);
   text-transform: uppercase;
   white-space: nowrap;

@@ -41,20 +41,20 @@ const Home = () => {
       <div className="marquee-container">
         <div className="marquee-content">
           <span>
-            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
           <span>
-            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={20} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 20px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
         </div>
       </div>
