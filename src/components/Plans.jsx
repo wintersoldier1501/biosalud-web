@@ -29,7 +29,6 @@ const Plans = () => {
               
               <div className="plan-content">
                 <span className="plan-subtitle">{plan.subtitle}</span>
-                <p className="plan-price">{plan.price}</p>
                 
                 <ul className="plan-features">
                   {plan.features.map((feature, idx) => (

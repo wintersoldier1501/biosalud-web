@@ -106,19 +106,27 @@
   box-shadow: 8px 8px 0px var(--color-border);
 }
 
-.plan-title {
+.plan-detail-page .plan-title {
   font-size: 3rem;
   margin-bottom: 0.5rem;
   color: var(--color-primary);
 }
 
-.plan-price {
+.plan-detail-page .plan-price {
   font-size: 2rem;
   font-family: var(--font-sans);
   font-weight: 800;
   color: var(--color-accent);
   margin-bottom: 2rem;
   text-shadow: 1px 1px 0 #000;
+}
+
+.plan-detail-page .plan-subtitle {
+  color: var(--color-text-muted);
+  font-weight: bold;
+  letter-spacing: 2px;
+  display: block;
+  margin-bottom: 10px;
 }
 
 .plan-description h3 {
