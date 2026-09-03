@@ -133,7 +133,7 @@
 .section-tag::after {
   content: '';
   display: inline-block;
-  width: 30px;
+  width: 100px;
   height: 1px;
   background-color: var(--color-primary-light);
   vertical-align: middle;
@@ -174,13 +174,13 @@
 .text-center .section-tag::before {
   content: '';
   display: inline-block;
-  width: 20px;
+  width: 100px;
   height: 1px;
   background-color: var(--color-primary-light);
   vertical-align: middle;
 }
-.text-center .section-tag::before { margin-right: 10px; }
-.text-center .section-tag::after { margin-left: 10px; }
+.text-center .section-tag::before { margin-right: 15px; }
+.text-center .section-tag::after { margin-left: 15px; }
 
 .section-desc {
   max-width: 600px;
