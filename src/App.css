@@ -252,7 +252,7 @@
 .announcement-content {
   display: flex;
   width: fit-content;
-  animation: marquee-reverse 35s linear infinite;
+  animation: marquee 35s linear infinite;
   color: white;
   text-decoration: none;
   font-family: var(--font-sans);
@@ -268,11 +268,6 @@
 }
 .announcement-content:hover {
   text-decoration: underline;
-}
-
-@keyframes marquee-reverse {
-  0% { transform: translateX(-50%); }
-  100% { transform: translateX(0); }
 }
 
 /* Marquee Ticker */
