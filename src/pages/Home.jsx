@@ -37,6 +37,13 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Marquee Ticker */}
+      <div className="marquee-container">
+        <div className="marquee-content">
+          <span>✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨</span>
+        </div>
+      </div>
+
       {/* Plans Section */}
       <Plans />
 
