@@ -234,7 +234,7 @@ const Home = () => {
           <p>Sígueme en Instagram y Facebook para tips diarios, recetas y motivación.</p>
           <div className="insta-gallery">
             <a href="https://www.instagram.com/reel/DZp0l0iSHtL/?igsi=bmZ0MXhjbDI5cHp6" target="_blank" rel="noreferrer" className="insta-item">
-              <img src="/insta 1.jpg" alt="Instagram Reel 1" />
+              <img src="/reel1.png" alt="Instagram Reel 1" />
               <div className="insta-play-overlay">
                 <Play size={24} fill="currentColor" />
               </div>
