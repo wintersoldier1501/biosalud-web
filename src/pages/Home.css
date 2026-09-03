@@ -196,6 +196,14 @@
 @media (min-width: 768px) {
   .services-grid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .services-grid {
+    gap: 5rem;
+    padding: 0 2rem;
   }
 }
 
