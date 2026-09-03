@@ -239,12 +239,6 @@ const Home = () => {
                 <Play size={24} fill="currentColor" />
               </div>
             </a>
-            <a href="https://www.instagram.com/reel/DRPjGH1kW6e/?igsi=MXV5ZHZobzh4YnZuYQ==" target="_blank" rel="noreferrer" className="insta-item">
-              <img src="/insta 2.jpg" alt="Instagram Reel 2" />
-              <div className="insta-play-overlay">
-                <Play size={24} fill="currentColor" />
-              </div>
-            </a>
             <a href="https://www.instagram.com/reel/DPtyg5fETDf/?igsi=MW41amc4ZXY1enRtZw==" target="_blank" rel="noreferrer" className="insta-item">
               <img src="/reel3.png" alt="Instagram Reel 3" />
               <div className="insta-play-overlay">
@@ -253,6 +247,12 @@ const Home = () => {
             </a>
             <a href="https://www.instagram.com/reel/DKM98hDOA68/?igsi=ZTNqYTdpcjRqYWhq" target="_blank" rel="noreferrer" className="insta-item">
               <img src="/reel4.png" alt="Instagram Reel 4" />
+              <div className="insta-play-overlay">
+                <Play size={24} fill="currentColor" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/reel/DRPjGH1kW6e/?igsi=MXV5ZHZobzh4YnZuYQ==" target="_blank" rel="noreferrer" className="insta-item">
+              <img src="/insta 2.jpg" alt="Instagram Reel 2" />
               <div className="insta-play-overlay">
                 <Play size={24} fill="currentColor" />
               </div>
