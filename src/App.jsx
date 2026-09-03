@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Booking from './pages/Booking';
 import About from './pages/About';
 import Methodology from './pages/Methodology';
+import PlanDetail from './pages/PlanDetail';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import './App.css';
@@ -25,6 +26,7 @@ function App() {
             <Route path="/agendar" element={<Booking />} />
             <Route path="/sobre-mi" element={<About />} />
             <Route path="/metodologia" element={<Methodology />} />
+            <Route path="/plan/:id" element={<PlanDetail />} />
           </Routes>
         </main>
         <Footer />

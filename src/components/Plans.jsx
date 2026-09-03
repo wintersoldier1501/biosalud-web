@@ -3,45 +3,7 @@ import { Leaf } from 'lucide-react';
 import Button from './Button';
 import './Plans.css';
 
-const plans = [
-  {
-    id: 'basico',
-    title: 'BÁSICO',
-    subtitle: 'PLAN INDIVIDUAL',
-    bgImage: 'https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&q=80&w=800',
-    features: [
-      'Menú de apoyo y material',
-      'Menú saludable y opciones de alimentos por 1 mes (sin personalización)',
-      'Marcas recomendadas y sustitutos',
-      'Todo sobre suplementos alimenticios'
-    ]
-  },
-  {
-    id: 'premium',
-    title: 'PREMIUM',
-    subtitle: 'PLAN INDIVIDUAL',
-    bgImage: 'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&fit=crop&q=80&w=800',
-    features: [
-      'Menú personalizado de 1 mes',
-      'Lista de súper y sustitutos conforme a presupuesto',
-      'Cantidades personalizadas',
-      'Material de nutrición y suplemento en primera fila'
-    ],
-    highlighted: true
-  },
-  {
-    id: 'personal',
-    title: 'PERSONAL',
-    subtitle: 'PLAN INDIVIDUAL',
-    bgImage: 'https://images.unsplash.com/photo-1478144592103-25e218a04891?auto=format&fit=crop&q=80&w=800',
-    features: [
-      'Consulta por videollamada conmigo',
-      'Ebook personalizado para ti',
-      '4 menús para un mes',
-      'Consulta mensual'
-    ]
-  }
-];
+import { plans } from '../data/plansData';
 
 const Plans = () => {
   return (
@@ -67,6 +29,7 @@ const Plans = () => {
               
               <div className="plan-content">
                 <span className="plan-subtitle">{plan.subtitle}</span>
+                <p className="plan-price">{plan.price}</p>
                 
                 <ul className="plan-features">
                   {plan.features.map((feature, idx) => (
@@ -79,11 +42,11 @@ const Plans = () => {
                 
                 <div className="plan-action">
                   <Button 
-                    to="/agendar" 
+                    to={`/plan/${plan.id}`} 
                     variant={plan.highlighted ? "primary" : "outline"}
                     className="comprar-btn"
                   >
-                    Elegir Plan
+                    Ver Plan
                   </Button>
                 </div>
               </div>
