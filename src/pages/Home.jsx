@@ -251,8 +251,8 @@ const Home = () => {
                 <Play size={24} fill="currentColor" />
               </div>
             </a>
-            <a href="https://www.instagram.com/reel/DOymacJiVfb/?igsi=OWhoM2I4OGN5dm92" target="_blank" rel="noreferrer" className="insta-item">
-              <img src="/insta 4.jpg" alt="Instagram Reel 4" />
+            <a href="https://www.instagram.com/reel/DKM98hDOA68/?igsi=ZTNqYTdpcjRqYWhq" target="_blank" rel="noreferrer" className="insta-item">
+              <img src="/reel4.png" alt="Instagram Reel 4" />
               <div className="insta-play-overlay">
                 <Play size={24} fill="currentColor" />
               </div>
