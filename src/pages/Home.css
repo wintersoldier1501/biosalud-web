@@ -249,23 +249,44 @@
 }
 
 .testimonials-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 2rem;
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1.5rem;
   margin-top: 3rem;
+  padding-bottom: 1.5rem;
+  -webkit-overflow-scrolling: touch;
 }
 
-@media (min-width: 768px) {
-  .testimonials-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.testimonials-grid::-webkit-scrollbar {
+  height: 8px;
+}
+
+.testimonials-grid::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.testimonials-grid::-webkit-scrollbar-thumb {
+  background: var(--color-border);
+  border-radius: 4px;
 }
 
 .testimonial-card {
-  background-color: white;
+  flex: 0 0 85%;
+  scroll-snap-align: center;
+  background-color: var(--color-surface);
   padding: 2.5rem 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.03);
+  border-radius: 16px;
+  border: 3px solid var(--color-border);
+  box-shadow: 6px 6px 0px var(--color-border);
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .testimonial-card {
+    flex: 0 0 calc(33.333% - 1rem);
+  }
 }
 
 .stars {

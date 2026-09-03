@@ -140,29 +140,53 @@ const Home = () => {
                 {[1,2,3,4,5].map(i => <Star key={i} size={16} fill="#A3B18A" color="#A3B18A" />)}
               </div>
               <p className="testimonial-text">"Alejandra cambió por completo mi relación con la comida. Nunca me sentí a dieta, sino aprendiendo a nutrir mi cuerpo."</p>
-              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '1.5rem' }}>
+              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: 'auto' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: 'var(--color-primary)', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '1.1rem' }}>M</div>
                 <p className="testimonial-author" style={{ marginTop: 0 }}>María F.</p>
               </div>
             </div>
+            
             <div className="testimonial-card">
               <div className="stars">
                 {[1,2,3,4,5].map(i => <Star key={i} size={16} fill="#A3B18A" color="#A3B18A" />)}
               </div>
-              <p className="testimonial-text">"Excelente profesional. Logré mis objetivos de salud en 3 meses y sus planes son deliciosos y fáciles de seguir."</p>
-              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '1.5rem' }}>
+              <p className="testimonial-text">"Excelente profesional. Logré mis objetivos de salud en 3 meses y sus planes son deliciosos y fáciles de seguir. ¡Totalmente recomendada!"</p>
+              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: 'auto' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: '#5C715E', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '1.1rem' }}>C</div>
                 <p className="testimonial-author" style={{ marginTop: 0 }}>Carlos G.</p>
               </div>
             </div>
+            
             <div className="testimonial-card">
               <div className="stars">
                 {[1,2,3,4,5].map(i => <Star key={i} size={16} fill="#A3B18A" color="#A3B18A" />)}
               </div>
-              <p className="testimonial-text">"Su enfoque empático hace toda la diferencia. Te escucha, te entiende y adapta todo a tu estilo de vida."</p>
-              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: '1.5rem' }}>
+              <p className="testimonial-text">"Su enfoque empático hace toda la diferencia. Te escucha, te entiende y adapta todo a tu estilo de vida sin restricciones exageradas."</p>
+              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: 'auto' }}>
                 <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: '#d4a373', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '1.1rem' }}>A</div>
                 <p className="testimonial-author" style={{ marginTop: 0 }}>Ana Paula T.</p>
+              </div>
+            </div>
+
+            <div className="testimonial-card">
+              <div className="stars">
+                {[1,2,3,4,5].map(i => <Star key={i} size={16} fill="#A3B18A" color="#A3B18A" />)}
+              </div>
+              <p className="testimonial-text">"Llevo 6 meses con ella y mis problemas de gastritis desaparecieron. Me enseñó a comer rico y balanceado."</p>
+              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: 'auto' }}>
+                <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: '#E07A5F', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '1.1rem' }}>R</div>
+                <p className="testimonial-author" style={{ marginTop: 0 }}>Raúl M.</p>
+              </div>
+            </div>
+
+            <div className="testimonial-card">
+              <div className="stars">
+                {[1,2,3,4,5].map(i => <Star key={i} size={16} fill="#A3B18A" color="#A3B18A" />)}
+              </div>
+              <p className="testimonial-text">"La mejor inversión en mi salud. Bajé mis niveles de colesterol y tengo muchísima más energía durante el día."</p>
+              <div className="testimonial-author-wrapper" style={{ display: 'flex', alignItems: 'center', gap: '12px', marginTop: 'auto' }}>
+                <div style={{ width: '40px', height: '40px', borderRadius: '50%', backgroundColor: '#81B29A', color: 'white', display: 'flex', alignItems: 'center', justifyContent: 'center', fontWeight: 'bold', fontSize: '1.1rem' }}>S</div>
+                <p className="testimonial-author" style={{ marginTop: 0 }}>Sofía R.</p>
               </div>
             </div>
           </div>
