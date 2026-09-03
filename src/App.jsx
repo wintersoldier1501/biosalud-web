@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <div className="app-container">
         <div className="announcement-bar">
-          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/alemarianutricion?igsi=cXZkYnhpczlyZnJh" target="_blank" rel="noopener noreferrer">
             Sígueme en Instagram para tips y recorridos en el súper diarios 🛒
           </a>
         </div>
