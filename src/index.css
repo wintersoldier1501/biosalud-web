@@ -1,12 +1,12 @@
 :root {
-  /* Color Palette: Neo-Brutalism / Vibrant Pop */
+  /* Color Palette: Neo-Brutalism / Citrus Pop */
   --color-bg: #F9F4E8;
   --color-surface: #FFFFFF;
   --color-text-main: #1A1A1A;
   --color-text-muted: #595959;
-  --color-primary: #F02B6D; /* Hot Pink */
-  --color-primary-light: #FF4A8D;
-  --color-accent: #C4EB1D; /* Lime Green */
+  --color-primary: #FF6B35; /* Vibrant Tangerine */
+  --color-primary-light: #FF8F66;
+  --color-accent: #00E676; /* Bright Mint Green */
   --color-border: #1A1A1A; /* Solid Black for borders */
   
   /* Typography */
