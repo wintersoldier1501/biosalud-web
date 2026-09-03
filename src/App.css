@@ -270,26 +270,26 @@
   border-bottom: 3px solid var(--color-border);
   padding: 1rem 0;
   overflow: hidden;
-  white-space: nowrap;
   position: relative;
   display: flex;
   align-items: center;
 }
 .marquee-content {
-  display: inline-block;
-  animation: marquee 15s linear infinite;
+  display: flex;
+  width: fit-content;
+  animation: marquee 35s linear infinite;
   font-family: var(--font-sans);
   font-weight: 800;
   font-size: 1.5rem;
   color: var(--color-border);
   text-transform: uppercase;
-  padding-left: 100%;
+  white-space: nowrap;
 }
 .marquee-content span {
-  display: inline-block;
-  padding-right: 50px;
+  display: inline-flex;
+  align-items: center;
 }
 @keyframes marquee {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(-100%, 0); }
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
 }
