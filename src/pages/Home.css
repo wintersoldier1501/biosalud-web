@@ -2,7 +2,7 @@
 
 /* Hero Section */
 .hero-section {
-  background: linear-gradient(135deg, rgba(252,252,249,1) 0%, rgba(235,240,230,0.4) 100%);
+  background-color: transparent;
   position: relative;
   overflow: hidden;
 }
@@ -90,7 +90,7 @@
 
 /* About Section */
 .about-section {
-  background-color: var(--color-surface);
+  background-color: transparent;
 }
 
 .about-container {
@@ -245,7 +245,7 @@
 
 /* Testimonials */
 .testimonials-section {
-  background-color: #F8FAF9;
+  background-color: transparent;
 }
 
 .testimonials-grid {
@@ -288,7 +288,7 @@
 
 /* Instagram Section */
 .instagram-section {
-  background-color: white;
+  background-color: transparent;
 }
 
 .insta-icon {
