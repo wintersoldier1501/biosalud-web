@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 import './Home.css';
-import { Calendar, User, Heart, Leaf, Star, Apple } from 'lucide-react';
+import { Calendar, User, Heart, Leaf, Star, Apple, Play } from 'lucide-react';
 
 import Plans from '../components/Plans';
 
@@ -233,10 +233,30 @@ const Home = () => {
           <h2>Únete a la Comunidad</h2>
           <p>Sígueme en Instagram y Facebook para tips diarios, recetas y motivación.</p>
           <div className="insta-gallery">
-            <div className="insta-item"><img src="/insta 1.jpg" alt="Instagram 1" /></div>
-            <div className="insta-item"><img src="/insta 2.jpg" alt="Instagram 2" /></div>
-            <div className="insta-item"><img src="/insta 3.jpg" alt="Instagram 3" /></div>
-            <div className="insta-item"><img src="/insta 4.jpg" alt="Instagram 4" /></div>
+            <a href="https://www.instagram.com/reel/DZp0l0iSHtL/?igsi=bmZ0MXhjbDI5cHp6" target="_blank" rel="noreferrer" className="insta-item">
+              <img src="/insta 1.jpg" alt="Instagram Reel 1" />
+              <div className="insta-play-overlay">
+                <Play size={24} fill="currentColor" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/reel/DRPjGH1kW6e/?igsi=MXV5ZHZobzh4YnZuYQ==" target="_blank" rel="noreferrer" className="insta-item">
+              <img src="/insta 2.jpg" alt="Instagram Reel 2" />
+              <div className="insta-play-overlay">
+                <Play size={24} fill="currentColor" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/reel/DPtyg5fETDf/?igsi=MW41amc4ZXY1enRtZw==" target="_blank" rel="noreferrer" className="insta-item">
+              <img src="/insta 3.jpg" alt="Instagram Reel 3" />
+              <div className="insta-play-overlay">
+                <Play size={24} fill="currentColor" />
+              </div>
+            </a>
+            <a href="https://www.instagram.com/reel/DOymacJiVfb/?igsi=OWhoM2I4OGN5dm92" target="_blank" rel="noreferrer" className="insta-item">
+              <img src="/insta 4.jpg" alt="Instagram Reel 4" />
+              <div className="insta-play-overlay">
+                <Play size={24} fill="currentColor" />
+              </div>
+            </a>
           </div>
           <div style={{ display: 'flex', justifyContent: 'center', gap: '15px', flexWrap: 'wrap' }}>
             <a href="https://www.instagram.com/alemarianutricion" target="_blank" rel="noreferrer" className="btn btn-outline insta-btn">
