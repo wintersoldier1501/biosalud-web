@@ -289,6 +289,20 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .testimonials-section .container {
+    max-width: 95%; /* Toma casi toda la pantalla para que quepan todos */
+  }
+  .testimonials-grid {
+    overflow-x: hidden; /* Oculta el scroll en escritorio grande */
+    justify-content: center;
+  }
+  .testimonial-card {
+    flex: 1 1 0; /* Se reparten el espacio equitativamente */
+    padding: 2rem 1.5rem; /* Reducimos un poco el padding lateral para que quepa bien el texto */
+  }
+}
+
 .stars {
   display: flex;
   gap: 0.2rem;
