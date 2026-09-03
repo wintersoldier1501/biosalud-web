@@ -15,7 +15,7 @@ const Booking = () => {
       <div className="container booking-container">
         <div className="booking-card calendly-wrapper">
           <InlineWidget 
-            url="https://calendly.com/acmesales" 
+            url="https://calendly.com/biosalud108/30min" 
             styles={{ height: '700px', width: '100%', minWidth: '320px' }}
           />
         </div>
