@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../components/Button';
 import './Home.css';
-import { Calendar, User, Heart, Leaf, Star } from 'lucide-react';
+import { Calendar, User, Heart, Leaf, Star, Apple } from 'lucide-react';
 
 import Plans from '../components/Plans';
 
@@ -40,7 +40,17 @@ const Home = () => {
       {/* Marquee Ticker */}
       <div className="marquee-container">
         <div className="marquee-content">
-          <span>✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨ AGENDA TU CONSULTA ✨ PLANES PERSONALIZADOS ✨ ASESORÍA ONLINE ✨</span>
+          <span>
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            AGENDA TU CONSULTA &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PLANES PERSONALIZADOS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            ASESORÍA ONLINE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <Apple size={24} strokeWidth={2.5} style={{verticalAlign: 'middle', margin: '0 15px'}}/> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
         </div>
       </div>
 
