@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
+import { useParams, Link, useNavigate } from 'react-router-dom';
 import { Lock, ArrowLeft, CheckCircle2 } from 'lucide-react';
 import { plans } from '../data/plansData';
 import Button from '../components/Button';
@@ -7,6 +7,7 @@ import './PlanDetail.css';
 
 const PlanDetail = () => {
   const { id } = useParams();
+  const navigate = useNavigate();
   const plan = plans.find(p => p.id === id);
 
   // Desplazar hacia arriba al cargar
@@ -14,11 +15,22 @@ const PlanDetail = () => {
     window.scrollTo(0, 0);
   }, []);
 
+  const handleBackToPlans = (e) => {
+    e.preventDefault();
+    navigate('/');
+    setTimeout(() => {
+      const element = document.getElementById('planes');
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+  };
+
   if (!plan) {
     return (
       <div className="plan-detail-error container">
         <h2>Plan no encontrado</h2>
-        <Link to="/" className="back-link">Volver al inicio</Link>
+        <a href="/" className="back-link">Volver al inicio</a>
       </div>
     );
   }
@@ -27,10 +39,10 @@ const PlanDetail = () => {
     <div className="plan-detail-page animate-fade-in">
       <div className="container plan-detail-container">
         
-        <Link to="/#planes" className="back-link">
+        <a href="/#planes" onClick={handleBackToPlans} className="back-link">
           <ArrowLeft size={20} />
           <span>Volver a Planes</span>
-        </Link>
+        </a>
 
         <div className="plan-detail-grid">
           
