@@ -16,7 +16,7 @@ const Home = () => {
               Nutrición Especializada para tu Bienestar
             </h1>
             <p className="hero-subtitle animate-fade-in delay-200">
-              Descubre un enfoque personalizado para transformar tu salud, energía y estilo de vida con la Dra. Alejandra María.
+              Descubre un enfoque personalizado para transformar tu salud, energía y estilo de vida de la mano con la Dra. Alejandra María.
             </p>
             <div className="hero-actions animate-fade-in delay-300">
               <Button to="/agendar" variant="primary">Agendar Consulta</Button>
